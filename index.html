@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
@@ -33,11 +34,11 @@
 
       <div>
         <h4>Would you recommend freeCodeCamp to a friend?</h4>
-        <input type="radio" name="recommend"  />
+        <input type="radio" name="recommend" value="Definitely" />
         <label for="definitely">Definitely</label>
-        <input type="radio" name="recommend"  />
+        <input type="radio" name="recommend" value="Maybe" />
         <label for="maybe">Maybe</label>
-        <input type="radio" name="recommend"  />
+        <input type="radio" name="recommend" value="Not sure" />
         <label for="not-sure">Not sure</label>
       </div>
 
@@ -50,6 +51,10 @@
         <label>Open Source Community<input type="checkbox" value="5" /></label>
       </div>
 
+      <label for="textarea">Additional Comments</label>
+      <textarea id="comments"></textarea>
+
+      <button type="submit" id="submit">Submit</button>
     </form>
     <script  src="js/index.js"></script>
   </body>
