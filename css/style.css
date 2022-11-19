@@ -1,0 +1,44 @@
+h1, p{
+    width: 100%;
+    text-align: center;
+}
+form{
+    background-color: rgb(26, 25, 25);
+    margin: 5em 25em;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 15px 25px;
+    justify-content: center;
+}
+label{
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"], input[type="number"], input[type="email"], select, textarea{
+    display: block;
+    border-radius: 5px;
+    border: #fff solid 1px;
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+    min-height: 30px;
+    margin-bottom: 15px;
+}
+input[type="text"]:active{
+    border: rgb(60, 119, 221) solid 1px;
+}
+button{
+    min-width: 350px;
+    min-height: 30px;
+    margin-bottom: 15px;
+    color: #fff;
+    background-color: rgb(104, 43, 226);
+    border-radius: 15px;
+}
+button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(211, 199, 235);
+    cursor: grab;
+}
