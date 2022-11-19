@@ -4,7 +4,7 @@ h1, p{
 }
 form{
     background-color: rgb(26, 25, 25);
-    margin: 5em 25em;
+    margin: 5em 12em;
     border-radius: 10px;
     border: 2px solid #fff;
     color: #fff;
@@ -12,12 +12,10 @@ form{
     justify-content: center;
 }
 label{
-    display: block;
     display: flex;
     flex-direction: column;
 }
 input[type="text"], input[type="number"], input[type="email"], select, textarea{
-    display: block;
     border-radius: 5px;
     border: #fff solid 1px;
     display: flex;
@@ -41,4 +39,24 @@ button:hover{
     color: rgb(0, 0, 0);
     background-color: rgb(211, 199, 235);
     cursor: grab;
+}
+#name-label  {
+    margin-bottom: 8px;
+}
+#email-label  {
+    margin-bottom: 8px;
+}
+#number-label  {
+    margin-bottom: 8px;
+}
+#gender  {
+    margin-bottom: 8px;
+}
+.align3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.align3 > input {
+    margin: 0 10px 0 0;
 }
