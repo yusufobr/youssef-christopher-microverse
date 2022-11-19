@@ -4,7 +4,7 @@ h1, p{
 }
 form{
     background-color: rgb(26, 25, 25);
-    margin: 5em 12em;
+    margin: 5em 25em;
     border-radius: 10px;
     border: 2px solid #fff;
     color: #fff;
@@ -59,4 +59,8 @@ button:hover{
 
 .align3 > input {
     margin: 0 10px 0 0;
+}
+.lbl{
+    display: block;
+    margin-bottom: 5px;
 }
