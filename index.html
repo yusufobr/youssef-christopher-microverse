@@ -16,20 +16,40 @@
       <input type="text" id="name" required value="Christopher Uduekwe" 
         placeholder="Name"
       />
-      <label id="name-email">Email</label>
+      <label id="email-label">Email</label>
       <input type="email" required id="email" placeholder="Enter your Email" 
         placeholder="Email"
       />
-      <label id="name-number">Number</label>
+      <label id="number-label">Number</label>
       <input type="number" min="1" max="9999" id="number" required value="12345"
         placeholder="Number"
       />
-      <label>Gender</label>
+      <label id="gender">Gender</label>
       <select id="dropdown">
         <option>Male</option>
         <option>Female</option>
         <option>Others</option>
       </select>
+
+      <div>
+        <h4>Would you recommend freeCodeCamp to a friend?</h4>
+        <input type="radio" name="recommend"  />
+        <label for="definitely">Definitely</label>
+        <input type="radio" name="recommend"  />
+        <label for="maybe">Maybe</label>
+        <input type="radio" name="recommend"  />
+        <label for="not-sure">Not sure</label>
+      </div>
+
+      <div>
+        <h4>What would you like to see improved? <span>(Check all that apply)</span></h4>
+        <label>Front-end Projects<input type="checkbox" value="1" /></label>
+        <label>Back-end Projects<input type="checkbox" value="2" /></label>
+        <label>Data Visualization<input type="checkbox" value="3" /></label>
+        <label>Challenges<input type="checkbox" value="4" /></label>
+        <label>Open Source Community<input type="checkbox" value="5" /></label>
+      </div>
+
     </form>
     <script  src="js/index.js"></script>
   </body>
